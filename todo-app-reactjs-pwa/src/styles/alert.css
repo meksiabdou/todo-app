@@ -1,0 +1,28 @@
+.alert {
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alert-custom.error {
+  background: #ff3d00;
+}
+
+.alert-custom.success {
+  background: #6bd429;
+}
+
+.alert-custom .btn-close {
+  padding: 3px 0;
+  background: none;
+  height: auto;
+  width: auto;
+}
+
+.alert p {
+  text-align: center;
+  color: #ffffff !important;
+  margin: 0;
+}

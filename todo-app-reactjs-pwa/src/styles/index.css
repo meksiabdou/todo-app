@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.btn-default {
+  border-radius: 30px;
+  font-size: 14px;
+  line-height: 1.2;
+  text-overflow: clip;
+  background: rgba(14, 53, 127, 0.05);
+  font-weight: 700;
+  color: #4f4e56;
+  padding: 0.5rem 0.9rem;
+}
+
+.btn-default.white, .btn-default.white:focus, .btn-default.white:hover {
+  color: #fff;
+}
+
+.btn-default.dark {
+  background-color: #4f4e56;
+  color: #fff;
+}
+.btn-default.dark:focus {
+  color: #fff;
+}
+.btn-default.dark:hover {
+  color: #fff;
+  background-color: #4f4e56;
+}
+
+.btn .btn-icon {
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+  color: #4f4e56;
+  box-shadow: none;
+}
+
+.btn-submit {
+  border-radius: 5px;
+  min-width: 120px;
+  background: #d43774;
+  color: #fff;
+}
+
+.btn-submit:hover,
+.btn-submit:focus {
+  color: #fff;
+  background-color: #dc354599;
+}
+
+.fs-6 {
+  font-size: 12px !important;
+}

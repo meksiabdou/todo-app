@@ -1,0 +1,68 @@
+.row.auth {
+  position: absolute;
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #fafafb;
+}
+
+.auth-right-side {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+.auth-right-side form {
+  width: 100%;
+}
+
+.auth .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.auth .title h4 {
+  font-size: 40px;
+  color: #38454c;
+}
+
+.auth .form-group {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.auth .form-control {
+  height: 50px;
+  padding-right: 25px;
+  padding-left: 25px;
+  color: #848b8e;
+}
+
+.auth .form-control::placeholder {
+  color: #848b8e;
+}
+
+.auth .btn-submit,
+.btn-socail {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.auth .error,
+.error {
+  color: red;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.sub-form {
+  margin-top: 20px;
+}
+
+.sub-form a {
+  color: #848b8e;
+  text-decoration: none;
+  font-weight: 600;
+}

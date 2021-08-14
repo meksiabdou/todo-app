@@ -1,0 +1,40 @@
+{
+  "name": "todo-app-api",
+  "version": "1.0.0",
+  "description": "todo-app-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/meksiabdou/todo-app.git"
+  },
+  "keywords": [
+    "ecommerce",
+    "stores"
+  ],
+  "author": "meksiabdou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meksiabdou/todo-app/issues"
+  },
+  "homepage": "https://github.com/meksiabdou/todo-app#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-useragent": "^1.0.15",
+    "helmet": "^4.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.33",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "serve-favicon": "^2.5.0",
+    "validatorjs": "^3.22.1"
+  }
+}
